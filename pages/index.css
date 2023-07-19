@@ -1,2 +1,69 @@
 @import url(../styles/vendor/normalize.css);
 @import url(../styles/vendor/fonts.css);
+
+.text-reset {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+  font-family: 'Inter', Arial, sans-serif;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1140px;
+  min-height: 73px;
+  margin-top: 46px;
+}
+
+.header__logo {
+  margin-top: 11px;
+}
+.header__logo-img {
+  min-width: 140px;
+  min-height: 24px;
+
+  background-image: url(../../images/logo/logo-header.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-position: center;
+}
+.header__logo-text {
+  font-family: "Montserrat";
+  max-width: 165px;
+
+  font-size: 10px;
+  color: #E4E5EA;
+  font-weight: 300;
+  line-height: 12.19px;
+  text-align: left;
+}
+
+.header__nav-menu {
+  margin-top: 15px;
+  list-style-type: none;
+}
+.header__list {
+  list-style-type: none;
+}
+.header__item {
+  margin-right: 30px;
+}
+.header__item:last-child {
+  margin-right: 0;
+}
+.header__item-link {
+
+}
