@@ -5,6 +5,10 @@
   margin: 0;
   padding: 0;
 }
+.section {
+  width: 100%;
+  max-width: 1140px;
+}
 
 .page {
   display: flex;
@@ -23,7 +27,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1140px;
   min-height: 73px;
   margin-top: 46px;
 }
@@ -107,7 +110,6 @@
   font-size: 16px;
   color: #fff;
   font-weight: 500;
-  font-style: normal;
 }
 .header__contacts-item-telegram {
   min-width: 17px;
@@ -126,4 +128,39 @@
   max-width: 16px;
   min-height: 16px;
   max-height: 16px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.promo {
+  margin-top: 90px;
+}
+.promo__text-head {
+  font-family: "Inter";
+  font-size: 48px;
+  color: #E4E5EA;
+  font-weight: 400;
+}
+.promo__text-span {
+  font-family: "Inter";
+  font-size: 48px;
+  background-image: linear-gradient(90deg,  #FCB045, #FF3F78);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 900;
+}
+.promo__text-subtitle {
+  margin-top: 30px;
+
+  font-family: "Montserrat";
+  font-size: 18px;
+  color: #E4E5EA;
+  font-weight: 400;
+}
+
+.consult {
+
 }
