@@ -34,7 +34,9 @@
 }
 .header__logo-img {
   min-width: 140px;
+  max-width: 140px;
   min-height: 24px;
+  max-height: 24px;
 
   background-image: url(../images/logo/logo-header.svg);
   background-repeat: no-repeat;
@@ -44,6 +46,7 @@
 .header__logo-text {
   font-family: "Montserrat";
   max-width: 165px;
+  margin-top: 10px;
 
   font-size: 10px;
   color: #E4E5EA;
@@ -69,6 +72,7 @@
   margin-right: 0;
 }
 .header__nav-menu-item-link {
+  font-family: "Inter";
   font-size: 16px;
   color: #fff;
   font-weight: 500;
@@ -81,19 +85,34 @@
   margin-top: 15px;
 }
 .header__contacts-item {
-
+  font-size: 0;
 }
 
 .header__contacts-item-link {
 
 }
 .header__contacts-phone-number {
+  font-family: "Inter";
   font-size: 16px;
   color: #fff;
   font-weight: 500;
   font-style: normal;
 }
-.header__contacts-item-img {
-  min-width: 20px;
-  min-height: 20px;
+.header__contacts-item-telegram {
+  min-width: 17px;
+  max-width: 17px;
+  min-height: 14px;
+  max-height: 14px;
+}
+.header__contacts-item-viber {
+  min-width: 16px;
+  max-width: 16px;
+  min-height: 15px;
+  max-height: 15px;
+}
+.header__contacts-item-whatsapp {
+  min-width: 16px;
+  max-width: 16px;
+  min-height: 16px;
+  max-height: 16px;
 }
