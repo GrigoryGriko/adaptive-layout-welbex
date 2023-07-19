@@ -56,7 +56,6 @@
 }
 
 .header__nav-menu {
-  line-height: 20px;
   list-style-type: none;
   margin-top: 15px;
 }
@@ -89,6 +88,7 @@
 
 .header__contacts-item:first-child {
   margin-right: 49px;
+  align-self: start;
 }
 .header__contacts-item {
   font-size: 0;
