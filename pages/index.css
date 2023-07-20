@@ -102,33 +102,50 @@
   margin-right: 0;
 }
 
-.header__contacts-item-link {
-
-}
 .header__contacts-phone-number {
   font-family: "Inter";
   font-size: 16px;
   color: #fff;
   font-weight: 500;
   font-style: normal;
+
+  white-space: nowrap;
 }
 .header__contacts-item-telegram {
   min-width: 17px;
   max-width: 17px;
   min-height: 14px;
   max-height: 14px;
+
+  background-image: url(./images/telegram.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  cursor: pointer;
 }
 .header__contacts-item-viber {
   min-width: 16px;
   max-width: 16px;
   min-height: 15px;
   max-height: 15px;
+
+  background-image: url(./images/viber.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  cursor: pointer;
 }
 .header__contacts-item-whatsapp {
   min-width: 16px;
   max-width: 16px;
   min-height: 16px;
   max-height: 16px;
+
+  background-image: url(./images/whatsapp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  cursor: pointer;
 }
 
 .content {
@@ -229,8 +246,8 @@
   font-family: "Montserrat";
   font-size: 16px;
   color: #E4E5EA;
-  font-weight: 400;font-weight: 400;
-  line-height: 20px;
+  font-weight: 400;
+  line-height: 19.5px;
 
   text-align: right;
 }
@@ -241,10 +258,15 @@
   background-color: #4077F3;
   border: none;
 
+  margin-top: 61px;
+
   font-family: "Inter";
-  font-size: 18px;
+  font-size: 16px;
   color: #E4E5EA;
   font-weight: 500;
   cursor: pointer;
 }
 
+.footer {
+  margin-top: 69px;
+}
