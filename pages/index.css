@@ -135,6 +135,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .promo {
   margin-top: 90px;
 }
@@ -151,6 +152,7 @@
   background-image: linear-gradient(90deg,  #FCB045, #FF3F78);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 
   font-weight: 900;
 }
@@ -183,24 +185,58 @@
   font-weight: 700;
   letter-spacing: .05em;
 
-  background-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+  background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
+
   text-transform: uppercase;
 }
 
 .consult__items {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+
+  min-width: 300px;
+  max-width: 300px;
+  margin-top: 40px;
+  list-style-type: none;
 }
 .consult__item {
-
+  min-width: 134px;
+  margin-bottom: 30px;
 }
-.consult__item-head {
+.consult__item:nth-child(3), .consult__item:last-child {
+  margin-bottom: 0;
+}
 
+.consult__item-head {
+  font-family: "Inter";
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: #E4E5EA;
+  font-weight: 4500;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  text-align: right;
 }
 .consult__item-text {
+  margin-top: 6px;
 
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #E4E5EA;
+  font-weight: 400;
+  line-height: 20px;
+
+  text-align: right;
 }
 
+.consult__get-consult-btn {
+  width: 262px;
+  height: 61px;
+  background-color: #000;
+}
 
