@@ -111,41 +111,37 @@
 
   white-space: nowrap;
 }
-.header__contacts-item-telegram {
-  min-width: 17px;
-  max-width: 17px;
-  min-height: 14px;
-  max-height: 14px;
 
-  background-image: url(./images/telegram.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.header_props-button_unset {
+  border: none;
+  background-color: transparent;
+  outline: none;
 
   cursor: pointer;
+}
+
+.header__contacts-item-telegram {
+  width: 16.68px;
+  height: 13.99px;
+
+  background-image: url(../images/telegram.svg);
+  background-repeat: no-repeat;
 }
 .header__contacts-item-viber {
-  min-width: 16px;
-  max-width: 16px;
-  min-height: 15px;
-  max-height: 15px;
+  width: 16px;
+  height: 15.2px;
 
-  background-image: url(./images/viber.svg);
+  background-image: url(../images/viber.svg);
   background-repeat: no-repeat;
   background-size: cover;
-
-  cursor: pointer;
 }
 .header__contacts-item-whatsapp {
-  min-width: 16px;
-  max-width: 16px;
-  min-height: 16px;
-  max-height: 16px;
+  width: 16px;
+  height: 16px;
 
-  background-image: url(./images/whatsapp.svg);
+  background-image: url(../images/whatsapp.svg);
   background-repeat: no-repeat;
   background-size: cover;
-
-  cursor: pointer;
 }
 
 .content {
@@ -225,14 +221,14 @@
   min-width: 134px;
   margin-bottom: 30px;
 }
-.consult__item:nth-child(3), .consult__item:last-child {
+.consult__item:nth-last-child(2), .consult__item:last-child {
   margin-bottom: 0;
 }
 
 .consult__item-head {
   font-family: "Inter";
   font-size: 18px;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   color: #E4E5EA;
   font-weight: 500;
   line-height: 22px;
@@ -268,5 +264,95 @@
 }
 
 .footer {
+  display: flex;
+  min-height: 315px;
   margin-top: 69px;
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+}
+
+.footer__nav-list-head {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #656566;
+  font-weight: 700;
+  letter-spacing: .05em;
+
+  text-transform: uppercase;
+}
+.footer__nav-list-pseudo-head {
+  height: 16.09px;
+}
+
+.footer__nav-list {
+
+}
+.footer__nav-list-items {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.footer__nav-list-item {
+  margin-bottom: 10px;
+}
+.footer__nav-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__nav-list-link {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #E4E5EA;
+  font-weight: 400;
+  line-height: 19px;
+
+  text-decoration: none;
+}
+.footer__nav-list-phone-number {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #E4E5EA;
+  font-weight: 500;
+  line-height: 19px;
+  font-style: normal;
+  white-space: nowrap;
+}
+.footer__nav-list-item {
+
+}
+
+.footer_props-button_unset {
+  border: none;
+  background-color: transparent;
+  outline: none;
+
+  cursor: pointer;
+}
+.footer__nav-list-item-telegram {
+  width: 16.68px;
+  height: 13.99px;
+
+  background-image: url(./images/telegram.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__nav-list-item-viber {
+  width: 16px;
+  height: 15.2px;
+
+  background-image: url(./images/viber.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__nav-list-item-whatsapp {
+  width: 16px;
+  height: 16px;
+
+  background-image: url(./images/whatsapp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
