@@ -276,6 +276,11 @@
   list-style-type: none;
 }
 
+.footer_align_right {
+  text-align: right;
+  align-items: flex-end;
+}
+
 .footer__nav-list-head {
   font-family: "Inter";
   font-size: 14px;
@@ -317,12 +322,42 @@
   font-size: 16px;
   color: #E4E5EA;
   font-weight: 500;
-  line-height: 19px;
+  line-height: 19.36px;
   font-style: normal;
   white-space: nowrap;
 }
 .footer__nav-list-item {
+}
 
+.footer_phone-number_set-margin {
+  margin-bottom: 23px;
+}
+.footer_contacts_set-margin {
+  margin-bottom: 22.01px;
+}
+
+.footer_setprops_text {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #E4E5EA;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.footer__contacts-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+.footer__contacts-item {
+  font-size: 0;
+}
+.footer__contacts-item:nth-child(1) {
+  margin-right: 13.65px;
+}
+.footer__contacts-item:nth-child(2) {
+  margin-right: 14px;
 }
 
 .footer_props-button_unset {
@@ -336,7 +371,7 @@
   width: 16.68px;
   height: 13.99px;
 
-  background-image: url(./images/telegram.svg);
+  background-image: url(../images/telegram.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -344,7 +379,7 @@
   width: 16px;
   height: 15.2px;
 
-  background-image: url(./images/viber.svg);
+  background-image: url(../images/viber.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -352,7 +387,24 @@
   width: 16px;
   height: 16px;
 
-  background-image: url(./images/whatsapp.svg);
+  background-image: url(../images/whatsapp.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.footer_text_bottom {
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: #E4E5EA;
+  font-weight: 400;
+  line-height: 14.63px;
+
+  text-align: right;
+}
+.footer__copyright {
+  margin-top: 70px;
+}
+.footer__policy {
+  margin-top: 5px;
+  text-decoration: underline;
 }
