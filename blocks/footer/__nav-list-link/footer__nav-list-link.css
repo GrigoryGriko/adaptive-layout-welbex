@@ -1,0 +1,10 @@
+.footer__nav-list-link {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #E4E5EA;
+  font-weight: 400;
+  line-height: 19px;
+
+  text-decoration: none;
+  white-space: nowrap;
+}

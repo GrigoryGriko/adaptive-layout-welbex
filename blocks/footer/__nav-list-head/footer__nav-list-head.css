@@ -1,0 +1,10 @@
+.footer__nav-list-head {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #656566;
+  font-weight: 700;
+  line-height: 14.52px;
+  letter-spacing: .05em;
+
+  text-transform: uppercase;
+}

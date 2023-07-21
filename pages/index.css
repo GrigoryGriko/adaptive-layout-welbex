@@ -48,140 +48,31 @@
 @import url(../blocks/consult/__items/consult__items.css);
 @import url(../blocks/consult/__item/consult__item.css);
 @import url(../blocks/consult/__icon-line/consult__icon-line.css);
+@import url(../blocks/consult/__item-head/consult__item-head.css);
+@import url(../blocks/consult/__item-text/consult__item-text.css);
+@import url(../blocks/consult/__get-consult-btn/consult__get-consult-btn.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__left-container/footer__left-container.css);
+@import url(../blocks/footer/__nav-list/footer__nav-list.css);
+@import url(../blocks/footer/_position/footer_position_align.css);
+@import url(../blocks/footer/__nav-list-head/footer__nav-list-head.css);
+@import url(../blocks/footer/__nav-list-pseudo-head/footer__nav-list-pseudo-head.css);
+@import url(../blocks/footer/__nav-list-items/footer__nav-list-items.css);
+@import url(../blocks/footer/__nav-list-item/footer__nav-list-item.css);
+@import url(../blocks/footer/__nav-list-link/footer__nav-list-link.css);
+@import url(../blocks/footer/__nav-list-phone-number/footer__nav-list-phone-number.css);
+@import url(../blocks/footer/_clients-thanks/footer_clients-thanks_visible.css);
+@import url(../blocks/footer/_letters-thanks/footer_letters-thanks_visible.css);
+@import url(../blocks/footer/_phone-number/footer_phone-number_set-margin.css);
+@import url(../blocks/footer/_contacts/footer_contacts_set-margin.css);
 
 
-.consult__item-head {
-  font-family: "Inter";
-  font-size: 18px;
-  letter-spacing: .05em;
-  color: #E4E5EA;
-  font-weight: 500;
-  line-height: 22px;
-  text-transform: uppercase;
 
-  text-align: right;
-}
-.consult__item-text {
-  margin-top: 6px;
 
-  font-family: "Montserrat";
-  font-size: 16px;
-  color: #E4E5EA;
-  font-weight: 400;
-  line-height: 19.5px;
 
-  text-align: right;
-}
 
-.consult__get-consult-btn {
-  width: 262px;
-  height: 61px;
-  background-color: #4077F3;
-  border: none;
-
-  margin-top: 61px;
-
-  font-family: "Inter";
-  font-size: 16px;
-  color: #E4E5EA;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.footer {
-  display: flex;
-  margin-top: 69px;
-  justify-content: space-between;
-}
-
-.footer__left-container {
-  display: flex;
-}
-
-.footer__nav-list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  list-style-type: none;
-}
-.footer__nav-list:nth-child(1) {
-  margin-right: 98px;
-}
-.footer__nav-list:nth-child(2) {
-  margin-right: 52px;
-}
-
-.footer_position_align {
-  text-align: right;
-  align-items: flex-end;
-  margin-right: 0 !important;
-  margin-bottom: 20px;
-}
-
-.footer__nav-list-head {
-  font-family: "Inter";
-  font-size: 14px;
-  color: #656566;
-  font-weight: 700;
-  line-height: 14.52px;
-  letter-spacing: .05em;
-
-  text-transform: uppercase;
-}
-.footer__nav-list-pseudo-head {
-  height: 16.09px;
-}
-
-.footer__nav-list-items {
-  list-style-type: none;
-  margin-top: 20px;
-  white-space: nowrap;
-}
-.footer__nav-list-item {
-  margin-bottom: 10px;
-}
-.footer__nav-list-item:last-child {
-  margin-bottom: 0;
-}
-
-.footer__nav-list-link {
-  font-family: "Inter";
-  font-size: 16px;
-  color: #E4E5EA;
-  font-weight: 400;
-  line-height: 19px;
-
-  text-decoration: none;
-  white-space: nowrap;
-}
-.footer__nav-list-phone-number {
-  font-family: "Inter";
-  font-size: 16px;
-  color: #E4E5EA;
-  font-weight: 500;
-  line-height: 19.36px;
-  font-style: normal;
-  white-space: nowrap;
-}
-.footer__nav-list-item {
-}
-
-.footer__clients-thanks_visible {
-  display: none;
-}
-
-.footer__letters-thanks_visible {
-  display: inline-block;
-}
-
-.footer__phone-number_set-margin {
-  margin-bottom: 23px;
-}
-.footer__contacts_set-margin {
-  margin-bottom: 22.01px;
-}
-
-.footer__setprops_text {
+.footer_setprops_text {
   font-family: "Inter";
   font-size: 16px;
   color: #E4E5EA;

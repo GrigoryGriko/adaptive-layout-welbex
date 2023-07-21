@@ -1,0 +1,11 @@
+.consult__item-head {
+  font-family: "Inter";
+  font-size: 18px;
+  letter-spacing: .05em;
+  color: #E4E5EA;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  text-align: right;
+}

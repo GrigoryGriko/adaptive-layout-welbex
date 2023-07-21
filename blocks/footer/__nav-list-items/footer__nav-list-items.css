@@ -1,0 +1,5 @@
+.footer__nav-list-items {
+  list-style-type: none;
+  margin-top: 20px;
+  white-space: nowrap;
+}

@@ -1,0 +1,6 @@
+.footer_position_align {
+  text-align: right;
+  align-items: flex-end;
+  margin-right: 0 !important;
+  margin-bottom: 20px;
+}
