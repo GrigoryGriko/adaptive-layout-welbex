@@ -10,65 +10,15 @@
 @import url(../blocks/cover/__red-light/cover__red-light.css);
 @import url(../blocks/cover/__purple-light/cover__purple-light.css);
 @import url(../blocks/cover/__red-ball-1/cover__red-ball-1.css);
-@import url(../blocks/cover/__purple-light/cover__purple-light.css);
-@import url(../blocks/cover/__purple-light/cover__purple-light.css);
+@import url(../blocks/cover/__red-ball-2/cover__red-ball-2.css);
+@import url(../blocks/cover/__purple-ball/cover__purple-ball.css);
+@import url(../blocks/cover/__glass/cover__glass.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-img/header__logo-img.css);
 
 
-
-
-.cover__glass {
-  display: none;
-  position: absolute;
-  width: 320px;
-  height: 500px;
-  top: 0;
-  left: 0;
-
-  background:
-    radial-gradient(238.53% 189.02% at 3.2% 3.49%,
-    rgba(255, 246, 233, 0.1) 0%,
-    rgba(26, 29, 35, 0.1) 26.62%,
-    rgba(26, 29, 35, 0.1) 52.1%,
-    rgba(26, 29, 35, 0.01) 70.17%,
-    rgba(26, 29, 35, 0) 100%
-  );
-  filter: blur(7.5px);
-}
-
-.page {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto;
-  font-family: 'Inter', Arial, sans-serif;
-
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  z-index: 0;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  min-height: 73px;
-  margin-top: 46px;
-}
-
-.header__logo {
-  margin-top: 11px;
-  text-decoration: none;
-}
-.header__logo-img {
-  width: 140px;
-  height: 24px;
-
-  background-image: url(../images/logo/logo-header.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  object-position: center;
-}
 .header__logo-text {
   font-family: "Montserrat";
   max-width: 165px;
