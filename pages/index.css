@@ -338,14 +338,22 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
-  min-width: 300px;
-  max-width: 300px;
+  width: 300px;
   margin-top: 40px;
   list-style-type: none;
 }
 .consult__item {
+  display: flex;
+  align-items: center;
   min-width: 134px;
   margin-bottom: 30px;
+}
+.consult__icon-line {
+  width: 10px;
+  height: 1px;
+  background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+  margin-right: 5px;
+  margin-top: -1px;
 }
 .consult__item:nth-last-child(2), .consult__item:last-child {
   margin-bottom: 0;
@@ -549,12 +557,43 @@
   text-decoration: underline;
 }
 
+.consult__items-mobile {
+  display: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  margin-top: 20px;
+  list-style-type: none;
+}
+.consult__item-mobile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  margin-right: 10px;
+  min-width: 114px;
+
+  font-family: "Montserrat";
+  font-size: 13px;
+  color: #E4E5EA;
+  font-weight: 400;
+  line-height: 15.85px;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.consult__item-mobile:nth-last-child(2), .consult__item-mobile:last-child {
+  margin-bottom: 0;
+}
+.consult__item-mobile:last-child {
+  margin-right: 0;
+}
 
 @media screen and (max-width: 991px) {
   .cover {
     top: 55px;
   }
   .cover__red-light {
+    width: 211px;
+    height: 210px;
     top: 241px;
     left: -55px;
   }
@@ -566,10 +605,17 @@
     display: none;
   }
   .cover__red-ball-2 {
+    width: 43px;
+    height: 43px;
     top: 402px;
     left: 29px;
+
+    backdrop-filter: blur(2px);
+    filter: blur(5px);
   }
   .cover__purple-ball {
+    width: 40px;
+    height: 40px;
     top: 236px;
     left: 296px;
   }
@@ -655,6 +701,11 @@
   .consult__head-span {
     text-transform: none;
   }
+
+  .consult__items-mobile {
+    display: flex;
+  }
+
   .consult__get-consult-btn {
     display: none;
   }
