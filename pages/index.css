@@ -10,17 +10,95 @@
   max-width: 1140px;
 }
 
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: -2;
+}
+
+.cover__red-light {
+  position: absolute;
+  width: 311px;
+  height: 311px;
+  top: 251px;
+  left: -102px;
+  opacity: .5;
+
+  background-color:#961A1A;
+  filter: blur(196px);
+  z-index: -1;
+}
+.cover__purple-light {
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  top: -154px;
+  left: 602px;
+  opacity: .5;
+
+  background-color: #833AB4;
+  filter: blur(196px);
+  z-index: -1;
+}
+.cover__red-ball-1 {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 547px;
+  left: 851px;
+
+  background: radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(255, 208, 208, 0.536) 0%,
+    rgba(212, 93, 93, 0.264) 59.67%,
+    rgba(167, 49, 49, 0.248) 78.59%,
+    rgba(130, 25, 25, 0.248) 100%
+  );
+  box-shadow: 3px 6px 27px -10px #DF7D7D40;
+
+  z-index: -1;
+}
+.cover__red-ball-2 {
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  top: 83px;
+  left: 519px;
+
+  background-image: url(../images/bg/red-ball-2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-position: center;
+  z-index: -1;
+}
+.cover__purple-ball {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: -2px;
+  left: 868px;
+
+  background-image: url(../images/bg/purple-ball.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-position: center;
+  z-index: -1;
+}
+
 .page {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  background-color: #000;
   font-family: 'Inter', Arial, sans-serif;
 
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  z-index: 0;
 }
 
 .header {
@@ -36,10 +114,8 @@
   text-decoration: none;
 }
 .header__logo-img {
-  min-width: 140px;
-  max-width: 140px;
-  min-height: 24px;
-  max-height: 24px;
+  width: 140px;
+  height: 24px;
 
   background-image: url(../images/logo/logo-header.svg);
   background-repeat: no-repeat;
@@ -126,6 +202,7 @@
 
   background-image: url(../images/telegram.svg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .header__contacts-item-viber {
   width: 16px;
