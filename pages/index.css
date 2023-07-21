@@ -9,8 +9,6 @@
 
 @import url(../blocks/header/_section/header_section_wide.css);
 
-@import url(../blocks/footer/section/footer_section_wide.css);
-
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__red-light/cover__red-light.css);
 @import url(../blocks/cover/__purple-light/cover__purple-light.css);
@@ -78,6 +76,8 @@
 @import url(../blocks/footer/_text/footer_text_bottom.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__policy/footer__policy.css);
+
+@import url(../blocks/footer/section/footer_section_wide.css);
 
 @import url(../blocks/consult/__items-mobile/consult__items-mobile.css);
 @import url(../blocks/consult/__item-mobile/consult__item-mobile.css);
