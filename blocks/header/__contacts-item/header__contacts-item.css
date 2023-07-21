@@ -1,0 +1,12 @@
+.header__contacts-item:first-child {
+  margin-right: 49px;
+  align-self: start;
+}
+.header__contacts-item {
+  font-size: 0;
+
+  margin-right: 34px;
+}
+.header__contacts-item:last-child {
+  margin-right: 0;
+}

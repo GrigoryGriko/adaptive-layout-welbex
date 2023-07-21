@@ -1,0 +1,11 @@
+.header__logo-text {
+  font-family: "Montserrat";
+  max-width: 165px;
+  margin-top: 10px;
+
+  font-size: 10px;
+  color: #E4E5EA;
+  font-weight: 300;
+  line-height: 12.19px;
+  text-align: left;
+}

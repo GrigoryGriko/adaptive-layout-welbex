@@ -4,8 +4,11 @@
 @import url(../blocks/text-reset/text-reset.css);
 @import url(../blocks/text-reset/text-reset.css);
 @import url(../blocks/section/section.css);
+
 @import url(../blocks/header/_section/header_section_wide.css);
+
 @import url(../blocks/footer/section/footer_section_wide.css);
+
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__red-light/cover__red-light.css);
 @import url(../blocks/cover/__purple-light/cover__purple-light.css);
@@ -13,85 +16,23 @@
 @import url(../blocks/cover/__red-ball-2/cover__red-ball-2.css);
 @import url(../blocks/cover/__purple-ball/cover__purple-ball.css);
 @import url(../blocks/cover/__glass/cover__glass.css);
+
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-img/header__logo-img.css);
+@import url(../blocks/header/__logo-text/header__logo-text.css);
+@import url(../blocks/header/__nav-menu/header__nav-menu.css);
+@import url(../blocks/header/__nav-menu-list/header__nav-menu-list.css);
+@import url(../blocks/header/__nav-menu-item/header__nav-menu-item.css);
+@import url(../blocks/header/__nav-menu-item-link/header__nav-menu-item-link.css);
+@import url(../blocks/header/__contacts-list/header__contacts-list.css);
+@import url(../blocks/header/__contacts-item/header__contacts-item.css);
+@import url(../blocks/header/__contacts-phone-number/header__contacts-phone-number.css);
+@import url(../blocks/header/_props-button/header_props-button_unset.css);
 
 
-.header__logo-text {
-  font-family: "Montserrat";
-  max-width: 165px;
-  margin-top: 10px;
-
-  font-size: 10px;
-  color: #E4E5EA;
-  font-weight: 300;
-  line-height: 12.19px;
-  text-align: left;
-}
-
-.header__nav-menu {
-  list-style-type: none;
-  margin-top: 15px;
-}
-.header__nav-menu-list {
-  display: flex;
-  list-style-type: none;
-}
-.header__nav-menu-item {
-  margin-right: 30px;
-  white-space: nowrap;
-
-}
-.header__nav-menu-item:last-child {
-  margin-right: 0;
-}
-.header__nav-menu-item-link {
-  font-family: "Inter";
-  font-size: 16px;
-  color: #fff;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.header__contacts-list {
-  display: flex;
-  align-items: baseline;
-  list-style-type: none;
-  margin-top: 15px;
-}
-
-.header__contacts-item:first-child {
-  margin-right: 49px;
-  align-self: start;
-}
-.header__contacts-item {
-  font-size: 0;
-
-  margin-right: 34px;
-}
-.header__contacts-item:last-child {
-  margin-right: 0;
-}
-
-.header__contacts-phone-number {
-  font-family: "Inter";
-  font-size: 16px;
-  color: #fff;
-  font-weight: 500;
-  font-style: normal;
-
-  white-space: nowrap;
-}
-
-.header__props-button_unset {
-  border: none;
-  background-color: transparent;
-  outline: none;
-
-  cursor: pointer;
-}
 
 .header__contacts-item-telegram {
   width: 16.68px;
