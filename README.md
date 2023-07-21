@@ -6,3 +6,6 @@
 
 Макеты Figma:
 https://www.figma.com/file/ja6QtJ9gv2JuxSDIAClL1O/Welbex?type=design&node-id=0-9&mode=design&t=IREVQiYiFsAweHTU-0
+
+Ссылка на GitHub Page:
+https://grigorygriko.github.io/test_adaptive-layout-welbex/
