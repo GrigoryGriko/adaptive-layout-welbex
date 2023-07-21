@@ -430,6 +430,7 @@
   font-size: 14px;
   color: #656566;
   font-weight: 700;
+  line-height: 14.52px;
   letter-spacing: .05em;
 
   text-transform: uppercase;
@@ -732,6 +733,9 @@
   .footer__nav-list-head {
     font-size: 12px;
   }
+  .footer__nav-list-pseudo-head {
+    height: 14.52px;
+  }
   .footer__nav-list-items {
     margin-top: 20px;
   }
@@ -758,7 +762,7 @@
     margin-right: 48px;
   }
   .footer__nav-list:nth-child(3) {
-    max-width: 100px;
+    max-width: 123px;
   }
 
   .footer__clients-thanks_visible {
