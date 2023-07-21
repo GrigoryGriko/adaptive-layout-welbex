@@ -1,0 +1,22 @@
+.cover__red-ball-1 {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 547px;
+  left: 851px;
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+    64% 64% at 27.25% 26.5%,
+    rgba(255, 208, 208, 0.536) 0%,
+    rgba(212, 93, 93, 0.264) 59.67%,
+    rgba(167, 49, 49, 0.248) 78.59%,
+    rgba(130, 25, 25, 0.248) 100%
+  );
+  box-shadow: 3px 6px 27px -10px #DF7D7D40;
+  backdrop-filter: blur(2px);
+  filter: blur(2.5px);
+
+  z-index: -1;
+}

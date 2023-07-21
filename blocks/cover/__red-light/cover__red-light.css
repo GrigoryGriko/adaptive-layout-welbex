@@ -1,0 +1,12 @@
+.cover__red-light {
+  position: absolute;
+  width: 311px;
+  height: 311px;
+  top: 251px;
+  left: -102px;
+  opacity: .5;
+
+  background-color:#961A1A;
+  filter: blur(196px);
+  z-index: -1;
+}

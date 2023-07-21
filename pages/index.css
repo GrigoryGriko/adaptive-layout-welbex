@@ -1,123 +1,21 @@
 @import url(../styles/vendor/normalize.css);
 @import url(../styles/vendor/fonts.css);
 
-.text-reset {
-  margin: 0;
-  padding: 0;
-}
-.link-hover-opacity {
-  transition: opacity 0.3s ease;
-}
-.link-hover-opacity:hover {
-  opacity: 0.8;
-}
-.section {
-  width: calc(100% - 40px);
-  max-width: 1140px;
-}
-
-.header__section_wide, .footer__section_wide {
-  width: calc(100% - 40px);
-  max-width: 1140px;
-}
-
-.cover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  z-index: -2;
-  overflow: hidden;
-}
-
-.cover__red-light {
-  position: absolute;
-  width: 311px;
-  height: 311px;
-  top: 251px;
-  left: -102px;
-  opacity: .5;
-
-  background-color:#961A1A;
-  filter: blur(196px);
-  z-index: -1;
-}
-.cover__purple-light {
-  position: absolute;
-  width: 259px;
-  height: 259px;
-  top: -154px;
-  left: 602px;
-  opacity: .5;
-
-  background-color: #833AB4;
-  filter: blur(196px);
-  z-index: -1;
-}
-.cover__red-ball-1 {
-  position: absolute;
-  width: 28px;
-  height: 28px;
-  top: 547px;
-  left: 851px;
-  border-radius: 50%;
-
-  background:
-    radial-gradient(
-    64% 64% at 27.25% 26.5%,
-    rgba(255, 208, 208, 0.536) 0%,
-    rgba(212, 93, 93, 0.264) 59.67%,
-    rgba(167, 49, 49, 0.248) 78.59%,
-    rgba(130, 25, 25, 0.248) 100%
-  );
-  box-shadow: 3px 6px 27px -10px #DF7D7D40;
-  backdrop-filter: blur(2px);
-  filter: blur(2.5px);
-
-  z-index: -1;
-}
-.cover__red-ball-2 {
-  position: absolute;
-  width: 83px;
-  height: 83px;
-  top: 83px;
-  left: 519px;
-  border-radius: 50%;
-
-  background:
-    radial-gradient(64% 64% at 27.25% 26.5%,
-    rgba(255, 208, 208, 0.48) 0%,
-    rgba(212, 93, 93, 0.248) 59.67%,
-    rgba(167, 49, 49, 0.264) 78.59%,
-    rgba(130, 25, 25, 0.232) 100%
-  );
-  box-shadow: 3px 6px 27px -10px #DF7D7D40;
-  backdrop-filter: blur(2px);
+@import url(../blocks/text-reset/text-reset.css);
+@import url(../blocks/text-reset/text-reset.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/header/_section/header_section_wide.css);
+@import url(../blocks/footer/section/footer_section_wide.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__red-light/cover__red-light.css);
+@import url(../blocks/cover/__purple-light/cover__purple-light.css);
+@import url(../blocks/cover/__red-ball-1/cover__red-ball-1.css);
+@import url(../blocks/cover/__purple-light/cover__purple-light.css);
+@import url(../blocks/cover/__purple-light/cover__purple-light.css);
 
 
-  z-index: -1;
-}
-.cover__purple-ball {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  top: -2px;
-  left: 868px;
-  border-radius: 50%;
 
-  background:
-    radial-gradient(64% 64% at 27.25% 26.5%,
-    rgba(236, 208, 255, 0.64) 0%,
-    rgba(161, 93, 207, 0.24) 59.67%,
-    rgba(118, 49, 164, 0.208) 78.59%,
-    rgba(86, 24, 128, 0.232) 100%
-  );
-  box-shadow: 3px 6px 27px -10px #B176D940;
-  backdrop-filter: blur(2px);
-  filter: blur(5px);
 
-  z-index: -1;
-}
 .cover__glass {
   display: none;
   position: absolute;
@@ -424,7 +322,7 @@
   margin-right: 52px;
 }
 
-.footer__position_align {
+.footer_position_align {
   text-align: right;
   align-items: flex-end;
   margin-right: 0 !important;
@@ -550,7 +448,7 @@
   background-size: cover;
 }
 
-.footer__text_bottom {
+.footer_text_bottom {
   font-family: "Montserrat";
   font-size: 12px;
   color: #E4E5EA;
@@ -648,7 +546,7 @@
     margin-top: 0;
   }
 
-  .header__section_wide {
+  .header_section_wide {
     width: 100%;
     max-width: 100%;
   }
@@ -772,14 +670,14 @@
     max-width: 123px;
   }
 
-  .footer__clients-thanks_visible {
+  .footer_clients-thanks_visible {
     display: inline-block;
   }
 
-  .footer__letters-thanks_visible {
+  .footer_letters-thanks_visible {
     display: none;
   }
-  .footer__position_align {
+  .footer_position_align {
     text-align: left;
     align-items: flex-start;
     max-width: 289px !important;

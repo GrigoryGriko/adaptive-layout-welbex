@@ -1,0 +1,4 @@
+.footer_section_wide {
+  width: calc(100% - 40px);
+  max-width: 1140px;
+}

@@ -1,0 +1,12 @@
+.cover__purple-light {
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  top: -154px;
+  left: 602px;
+  opacity: .5;
+
+  background-color: #833AB4;
+  filter: blur(196px);
+  z-index: -1;
+}
