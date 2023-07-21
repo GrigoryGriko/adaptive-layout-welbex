@@ -66,114 +66,23 @@
 @import url(../blocks/footer/_letters-thanks/footer_letters-thanks_visible.css);
 @import url(../blocks/footer/_phone-number/footer_phone-number_set-margin.css);
 @import url(../blocks/footer/_contacts/footer_contacts_set-margin.css);
+@import url(../blocks/footer/_setprops/footer_setprops_text.css);
+@import url(../blocks/footer/__contacts-items/footer__contacts-items.css);
+@import url(../blocks/footer/__contacts-item/footer__contacts-item.css);
+@import url(../blocks/footer/__props-button/footer__props-button_unset.css);
+@import url(../blocks/footer/__nav-list-item-telegram/footer__nav-list-item-telegram.css);
+@import url(../blocks/footer/__nav-list-item-viber/footer__nav-list-item-viber.css);
+@import url(../blocks/footer/__nav-list-item-whatsapp/footer__nav-list-item-whatsapp.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__policy/footer__policy.css);
+
+@import url(../blocks/consult/__items-mobile/consult__items-mobile.css);
+@import url(../blocks/consult/__item-mobile/consult__item-mobile.css);
 
 
 
 
 
-
-.footer_setprops_text {
-  font-family: "Inter";
-  font-size: 16px;
-  color: #E4E5EA;
-  font-weight: 400;
-  line-height: 19.36px;
-}
-
-.footer__contacts-items {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style-type: none;
-}
-.footer__contacts-item {
-  font-size: 0;
-}
-.footer__contacts-item:nth-child(1) {
-  margin-right: 13.65px;
-}
-.footer__contacts-item:nth-child(2) {
-  margin-right: 14px;
-}
-
-.footer__props-button_unset {
-  border: none;
-  background-color: transparent;
-  outline: none;
-
-  cursor: pointer;
-}
-.footer__nav-list-item-telegram {
-  width: 16.68px;
-  height: 13.99px;
-
-  background-image: url(../images/telegram.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.footer__nav-list-item-viber {
-  width: 16px;
-  height: 15.2px;
-
-  background-image: url(../images/viber.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.footer__nav-list-item-whatsapp {
-  width: 16px;
-  height: 16px;
-
-  background-image: url(../images/whatsapp.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.footer_text_bottom {
-  font-family: "Montserrat";
-  font-size: 12px;
-  color: #E4E5EA;
-  font-weight: 400;
-  line-height: 14.63px;
-
-  text-align: right;
-}
-.footer__copyright {
-  margin-top: 70px;
-}
-.footer__policy {
-  margin-top: 6px;
-  text-decoration: underline;
-}
-
-.consult__items-mobile {
-  display: none;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-
-  margin-top: 20px;
-  list-style-type: none;
-}
-.consult__item-mobile {
-  display: flex;
-  align-items: center;
-  margin-bottom: 14px;
-  margin-right: 10px;
-  min-width: 114px;
-
-  font-family: "Montserrat";
-  font-size: 13px;
-  color: #E4E5EA;
-  font-weight: 400;
-  line-height: 15.85px;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-}
-.consult__item-mobile:nth-last-child(2), .consult__item-mobile:last-child {
-  margin-bottom: 0;
-}
-.consult__item-mobile:last-child {
-  margin-right: 0;
-}
 
 @media screen and (max-width: 991px) {
   .cover {

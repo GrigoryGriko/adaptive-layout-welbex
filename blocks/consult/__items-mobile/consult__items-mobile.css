@@ -1,0 +1,8 @@
+.consult__items-mobile {
+  display: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  margin-top: 20px;
+  list-style-type: none;
+}

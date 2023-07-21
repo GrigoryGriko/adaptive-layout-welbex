@@ -1,0 +1,7 @@
+.footer__props-button_unset {
+  border: none;
+  background-color: transparent;
+  outline: none;
+
+  cursor: pointer;
+}
