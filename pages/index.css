@@ -31,126 +31,24 @@
 @import url(../blocks/header/__contacts-item/header__contacts-item.css);
 @import url(../blocks/header/__contacts-phone-number/header__contacts-phone-number.css);
 @import url(../blocks/header/_props-button/header_props-button_unset.css);
+@import url(../blocks/header/__contacts-item-telegram/header__contacts-item-telegram.css);
+@import url(../blocks/header/__contacts-item-viber/header__contacts-item-viber.css);
+@import url(../blocks/header/__contacts-item-whatsapp/header__contacts-item-whatsapp.css);
 
+@import url(../blocks/content/content.css);
 
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__text-head/promo__text-head.css);
+@import url(../blocks/promo/__text-span/promo__text-span.css);
+@import url(../blocks/promo/__text-subtitle/promo__text-subtitle.css);
 
-.header__contacts-item-telegram {
-  width: 16.68px;
-  height: 13.99px;
+@import url(../blocks/consult/consult.css);
+@import url(../blocks/consult/__head/consult__head.css);
+@import url(../blocks/consult/__head-span/consult__head-span.css);
+@import url(../blocks/consult/__items/consult__items.css);
+@import url(../blocks/consult/__item/consult__item.css);
+@import url(../blocks/consult/__icon-line/consult__icon-line.css);
 
-  background-image: url(../images/telegram.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.header__contacts-item-viber {
-  width: 16px;
-  height: 15.2px;
-
-  background-image: url(../images/viber.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.header__contacts-item-whatsapp {
-  width: 16px;
-  height: 16px;
-
-  background-image: url(../images/whatsapp.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.promo {
-  margin-top: 90px;
-}
-.promo__text-head {
-  font-family: "Inter";
-  font-size: 48px;
-  line-height: 58px;
-  color: #E4E5EA;
-  font-weight: 400;
-}
-.promo__text-span {
-  font-family: "Inter";
-  font-size: 48px;
-  background-image: linear-gradient(90deg,  #FCB045, #FF3F78);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-
-  font-weight: 900;
-}
-.promo__text-subtitle {
-  margin-top: 30px;
-
-  font-family: "Montserrat";
-  font-size: 18px;
-  line-height: 22px;
-  color: #E4E5EA;
-  font-weight: 400;
-}
-
-.consult {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  margin-top: 105px;
-}
-.consult__head {
-  font-family: "Inter";
-  font-size: 18px;
-  line-height: 22px;
-  line-height: 22px;
-
-  text-align: right;
-
-
-  font-weight: 700;
-  letter-spacing: .05em;
-
-  background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-
-  text-transform: uppercase;
-}
-.consult__head-span {
-  font-weight: 500;
-  background: #E4E5EA;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-transform: none;
-}
-
-.consult__items {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
-  width: 300px;
-  margin-top: 40px;
-  list-style-type: none;
-}
-.consult__item {
-  min-width: 134px;
-  margin-bottom: 30px;
-}
-.consult__icon-line {
-  width: 10px;
-  height: 1px;
-  background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
-  margin-right: 5px;
-  margin-top: -1px;
-}
-.consult__item:nth-last-child(2), .consult__item:last-child {
-  margin-bottom: 0;
-}
 
 .consult__item-head {
   font-family: "Inter";

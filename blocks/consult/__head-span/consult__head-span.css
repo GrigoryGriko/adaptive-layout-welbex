@@ -1,0 +1,8 @@
+.consult__head-span {
+  font-weight: 500;
+  background: #E4E5EA;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: none;
+}

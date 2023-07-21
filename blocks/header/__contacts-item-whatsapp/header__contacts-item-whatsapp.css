@@ -1,0 +1,8 @@
+.header__contacts-item-whatsapp {
+  width: 16px;
+  height: 16px;
+
+  background-image: url(../images/whatsapp.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

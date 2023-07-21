@@ -1,0 +1,6 @@
+.consult {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 105px;
+}

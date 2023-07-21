@@ -1,0 +1,8 @@
+.consult__item {
+  min-width: 134px;
+  margin-bottom: 30px;
+}
+
+.consult__item:nth-last-child(2), .consult__item:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,19 @@
+.consult__head {
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 22px;
+  line-height: 22px;
+
+  text-align: right;
+
+
+  font-weight: 700;
+  letter-spacing: .05em;
+
+  background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  text-transform: uppercase;
+}

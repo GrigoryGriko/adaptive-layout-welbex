@@ -1,0 +1,10 @@
+.promo__text-span {
+  font-family: "Inter";
+  font-size: 48px;
+  background-image: linear-gradient(90deg,  #FCB045, #FF3F78);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  font-weight: 900;
+}

@@ -1,0 +1,9 @@
+.consult__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 300px;
+  margin-top: 40px;
+  list-style-type: none;
+}

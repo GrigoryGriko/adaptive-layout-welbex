@@ -1,0 +1,8 @@
+.header__contacts-item-viber {
+  width: 16px;
+  height: 15.2px;
+
+  background-image: url(../images/viber.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
