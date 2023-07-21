@@ -19,3 +19,12 @@
 
   z-index: -1;
 }
+
+@media screen and (max-width: 991px) {
+  .cover__purple-ball {
+    width: 40px;
+    height: 40px;
+    top: 291px;
+    left: 296px;
+  }
+}

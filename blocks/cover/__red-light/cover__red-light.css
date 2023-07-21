@@ -10,3 +10,12 @@
   filter: blur(196px);
   z-index: -1;
 }
+
+@media screen and (max-width: 991px) {
+  .cover__red-light {
+    width: 211px;
+    height: 265px;
+    top: 241px;
+    left: -55px;
+  }
+}

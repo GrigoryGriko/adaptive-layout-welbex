@@ -2,3 +2,9 @@
   margin-top: 11px;
   text-decoration: none;
 }
+
+@media screen and (max-width: 991px) {
+  .header__logo {
+    display: none;
+  }
+}

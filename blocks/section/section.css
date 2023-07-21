@@ -2,3 +2,9 @@
   width: calc(100% - 40px);
   max-width: 1140px;
 }
+
+@media screen and (max-width: 991px) {
+  .section {
+    max-width: 289px;
+  }
+}

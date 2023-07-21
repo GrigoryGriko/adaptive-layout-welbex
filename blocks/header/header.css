@@ -4,3 +4,15 @@
   min-height: 73px;
   margin-top: 46px;
 }
+
+@media screen and (max-width: 991px) {
+  .header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    min-height: 55px;
+    margin-top: 0;
+  }
+}

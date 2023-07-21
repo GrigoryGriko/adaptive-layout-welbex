@@ -2,3 +2,10 @@
   width: calc(100% - 40px);
   max-width: 1140px;
 }
+
+@media screen and (max-width: 991px) {
+  .header_section_wide {
+    width: 100%;
+    max-width: 100%;
+  }
+}

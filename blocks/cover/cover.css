@@ -6,3 +6,10 @@
   z-index: -2;
   overflow: hidden;
 }
+
+@media screen and (max-width: 991px) {
+  .cover {
+    top: 55px;
+    height: calc(100% - 55px);
+  }
+}

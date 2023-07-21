@@ -16,3 +16,9 @@
   );
   filter: blur(7.5px);
 }
+
+@media screen and (max-width: 991px) {
+  .cover__glass {
+    display: block;
+  }
+}

@@ -10,3 +10,10 @@
   filter: blur(196px);
   z-index: -1;
 }
+
+@media screen and (max-width: 991px) {
+  .cover__purple-light {
+    top: 162px;
+    left: 258px;
+  }
+}

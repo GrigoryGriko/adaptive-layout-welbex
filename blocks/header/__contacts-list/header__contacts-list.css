@@ -1,6 +1,12 @@
 .header__contacts-list {
-    display: flex;
-    align-items: baseline;
-    list-style-type: none;
-    margin-top: 15px;
+  display: flex;
+  align-items: baseline;
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .header__contacts-list {
+    display: none;
   }
+}
