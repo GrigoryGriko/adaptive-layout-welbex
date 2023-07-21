@@ -5,6 +5,12 @@
   margin: 0;
   padding: 0;
 }
+.link-hover-opacity {
+  transition: opacity 0.3s ease;
+}
+.link-hover-opacity:hover {
+  opacity: 0.8;
+}
 .section {
   width: 100%;
   max-width: 1140px;
