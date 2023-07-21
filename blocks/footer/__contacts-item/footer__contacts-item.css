@@ -7,3 +7,12 @@
 .footer__contacts-item:nth-child(2) {
   margin-right: 14px;
 }
+
+@media screen and (max-width: 991px) {
+  .footer__contacts-item:nth-child(1), .footer__contacts-item:nth-child(2) {
+    margin-right: 14px;
+  }
+  .footer__contacts-item:nth-child(1) {
+    margin-left: 1.6px;
+  }
+}

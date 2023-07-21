@@ -4,3 +4,9 @@
   align-items: center;
   list-style-type: none;
 }
+
+@media screen and (max-width: 991px) {
+  .footer__contacts-items {
+    justify-content: flex-start;
+  }
+}

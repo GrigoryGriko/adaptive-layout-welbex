@@ -20,3 +20,9 @@
 .consult__item-mobile:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 991px) {
+  .consult__items-mobile {
+    display: flex;
+  }
+}

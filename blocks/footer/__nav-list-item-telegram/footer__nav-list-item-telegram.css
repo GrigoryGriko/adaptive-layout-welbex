@@ -6,3 +6,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 991px) {
+  .footer__nav-list-item-telegram {
+    width: 20.02px;
+    height: 16.79px;
+  }
+}

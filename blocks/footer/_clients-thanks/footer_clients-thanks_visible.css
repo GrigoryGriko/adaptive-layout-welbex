@@ -1,3 +1,9 @@
 .footer_clients-thanks_visible {
   display: none;
 }
+
+@media screen and (max-width: 991px) {
+  .footer_clients-thanks_visible {
+    display: inline-block;
+  }
+}

@@ -4,3 +4,14 @@
   margin-right: 0 !important;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 991px) {
+  .footer_position_align {
+    text-align: left;
+    align-items: flex-start;
+    max-width: 289px !important;
+    min-width: 289px;
+
+    margin-bottom: 60px !important;
+  }
+}

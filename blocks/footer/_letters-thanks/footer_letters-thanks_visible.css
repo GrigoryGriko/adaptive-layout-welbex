@@ -1,3 +1,9 @@
 .footer_letters-thanks_visible {
   display: inline-block;
 }
+
+@media screen and (max-width: 991px) {
+  .footer_letters-thanks_visible {
+    display: none;
+  }
+}

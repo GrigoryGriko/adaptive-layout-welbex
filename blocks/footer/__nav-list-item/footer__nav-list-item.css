@@ -5,3 +5,17 @@
 .footer__nav-list-item:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 991px) {
+  .footer__nav-list-item {
+    margin-bottom: 10px;
+  }
+  .footer__nav-list-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer__nav-list-item:last-child(2) {
+    margin-bottom: 12px;
+    line-height: 19px;
+  }
+}

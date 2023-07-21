@@ -7,3 +7,9 @@
   margin-top: 40px;
   list-style-type: none;
 }
+
+@media screen and (max-width: 991px) {
+  .consult__items {
+    display: none;
+  }
+}

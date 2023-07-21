@@ -1,3 +1,11 @@
 .footer__left-container {
   display: flex;
 }
+
+@media screen and (max-width: 991px) {
+  .footer__left-container {
+    flex-flow: wrap;
+    max-width: 289px;
+    margin-top: 42px;
+  }
+}

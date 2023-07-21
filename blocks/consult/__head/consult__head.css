@@ -17,3 +17,10 @@
 
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 991px) {
+  .consult__head {
+    text-align: left;
+    text-transform: none;
+  }
+}

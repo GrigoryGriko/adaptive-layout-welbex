@@ -5,3 +5,12 @@
   color: #E4E5EA;
   font-weight: 400;
 }
+
+@media screen and (max-width: 991px) {
+  .promo__text-head {
+    font-family: Inter;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0em;
+  }
+}

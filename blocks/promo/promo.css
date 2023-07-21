@@ -1,3 +1,9 @@
 .promo {
   margin-top: 90px;
 }
+
+@media screen and (max-width: 991px) {
+  .promo {
+    margin-top: 40xp;
+  }
+}

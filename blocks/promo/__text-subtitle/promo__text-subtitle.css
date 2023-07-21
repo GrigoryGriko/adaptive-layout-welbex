@@ -7,3 +7,9 @@
   color: #E4E5EA;
   font-weight: 400;
 }
+
+@media screen and (max-width: 991px) {
+  .promo__text-subtitle {
+    margin-top: 15px;
+  }
+}

@@ -4,3 +4,10 @@
   flex-direction: column;
   margin-top: 105px;
 }
+
+@media screen and (max-width: 991px) {
+  .consult {
+    margin-top: 45px;
+    align-items: flex-start;
+  }
+}

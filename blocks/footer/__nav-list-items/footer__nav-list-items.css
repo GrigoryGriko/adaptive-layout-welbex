@@ -3,3 +3,9 @@
   margin-top: 20px;
   white-space: nowrap;
 }
+
+@media screen and (max-width: 991px) {
+  .footer__nav-list-items {
+    margin-top: 20px;
+  }
+}

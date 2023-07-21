@@ -8,3 +8,9 @@
 
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 991px) {
+  .footer__nav-list-head {
+    font-size: 12px;
+  }
+}

@@ -11,3 +11,17 @@
 .footer__nav-list:nth-child(2) {
   margin-right: 52px;
 }
+
+@media screen and (max-width: 991px) {
+  .footer__nav-list, .footer__nav-list:nth-child(1), .footer__nav-list:nth-child(2) {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .footer__nav-list:nth-child(2) {
+    max-width: 100px;
+    margin-right: 48px;
+  }
+  .footer__nav-list:nth-child(3) {
+    max-width: 123px;
+  }
+}

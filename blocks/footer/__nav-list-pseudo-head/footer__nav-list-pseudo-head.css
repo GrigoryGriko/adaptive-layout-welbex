@@ -1,3 +1,9 @@
 .footer__nav-list-pseudo-head {
   height: 16.09px;
 }
+
+@media screen and (max-width: 991px) {
+  .footer__nav-list-pseudo-head {
+    height: 14.52px;
+  }
+}
