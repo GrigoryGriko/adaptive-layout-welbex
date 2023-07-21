@@ -24,7 +24,7 @@
 .cover {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #000;
   z-index: -2;
   overflow: hidden;
@@ -398,7 +398,6 @@
 
 .footer {
   display: flex;
-  min-height: 315px;
   margin-top: 69px;
   justify-content: space-between;
 }
@@ -424,6 +423,7 @@
   text-align: right;
   align-items: flex-end;
   margin-right: 0 !important;
+  margin-bottom: 20px;
 }
 
 .footer__nav-list-head {
@@ -595,6 +595,7 @@
 @media screen and (max-width: 991px) {
   .cover {
     top: 55px;
+    height: calc(100% - 55px);
   }
   .cover__red-light {
     width: 211px;
