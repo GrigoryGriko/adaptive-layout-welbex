@@ -343,8 +343,6 @@
   list-style-type: none;
 }
 .consult__item {
-  display: flex;
-  align-items: center;
   min-width: 134px;
   margin-bottom: 30px;
 }
