@@ -551,6 +551,9 @@
 
 
 @media screen and (max-width: 991px) {
+  .cover {
+    top: 55px;
+  }
   .cover__red-light {
     top: 241px;
     left: -55px;
@@ -620,6 +623,7 @@
 
   .content {
     margin-top: 55px;
+    flex-direction: column;
   }
   .promo {
     margin-top: 40xp;
@@ -631,5 +635,27 @@
     line-height: 44px;
     letter-spacing: 0em;
   }
+  .promo__text-span {
+    font-size: 36px;
+  }
+  .promo__text-subtitle {
+    margin-top: 15px;
+  }
 
+  .consult {
+    margin-top: 45px;
+    align-items: flex-start;
+  }
+  .consult__items {
+    display: none;
+  }
+  .consult__head {
+    text-align: left;
+  }
+  .consult__head-span {
+    text-transform: none;
+  }
+  .consult__get-consult-btn {
+    display: none;
+  }
 }
