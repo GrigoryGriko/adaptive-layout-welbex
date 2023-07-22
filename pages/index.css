@@ -81,4 +81,5 @@
 
 @import url(../blocks/consult/__items-mobile/consult__items-mobile.css);
 @import url(../blocks/consult/__item-mobile/consult__item-mobile.css);
+@import url(../blocks/header/_item/header_item_visible.css);
 
