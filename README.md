@@ -6,7 +6,7 @@
 4. Для текста сделан градиент;
 5. Сделан эффект плавного изменения прозрачности при наведении на ссылки и кнопки.
 
-Макеты Figma:
+Макет Figma:
 https://www.figma.com/file/ja6QtJ9gv2JuxSDIAClL1O/Welbex?type=design&node-id=0-9&mode=design&t=IREVQiYiFsAweHTU-0
 
 Ссылка на GitHub Page:
